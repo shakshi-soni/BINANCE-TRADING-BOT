@@ -21,6 +21,19 @@ Think of it as a bridge between complex crypto exchange rulebooks and a clean, b
 
 ---
 
+## 🛠️ Technologies Used
+
+The application is built completely using an industry-standard, lightweight, and highly asynchronous-capable Python ecosystem:
+
+* **Python 3.8+**: The core execution programming language.
+* **`questionary`**: Used to engineer the advanced, interactive terminal UX prompts, select menus, input captures, and keyboard arrow controls.
+* **`python-binance`**: The official ecosystem REST API and WebSockets wrapper wrapper used to communicate securely with the Binance Futures Testnet endpoints.
+* **`python-dotenv`**: Used to load environment-specific configurations and credentials from a detached `.env` profile securely into the system environment memory runtime (`os.environ`).
+* **`logging` (Native Standard Library)**: Implements dual-stream pipeline handlers to pipe structured execution events onto both the terminal standard output stream (`stdout`) and local `trading_bot.log` append file ledgers simultaneously.
+
+---
+
+
 ## 📂 Project Architecture
 
 ```text
