@@ -2,6 +2,16 @@
 
 A modular, interactive Command Line Interface (CLI) application built in Python for executing trading orders seamlessly on the **Binance Futures Testnet (USDT-M)**. Upgraded with an advanced, interactive text UX that guides users dynamically with menu selectors and built-in entry validation.
 
+
+# 🤖 Interactive Binance Futures Trading Bot CLI
+
+## 🤔 What is this?
+This project is an advanced, production-grade **Command Line Interface (CLI) Trading Assistant** designed specifically for the **Binance Futures Testnet (USDT-M)**. 
+
+Instead of forcing users to deal with complex, error-prone terminal command flags (like `--symbol BTCUSDT --side BUY`), this application replaces the traditional CLI experience with a **dynamic, interactive terminal UX**. It uses visual select menus and real-time inputs to guide a trader step-by-step through configuring and sending a trade safely to the live exchange network.
+
+Think of it as a bridge between complex crypto exchange rulebooks and a clean, bulletproof developer terminal tool.
+
 ## ✨ Core Features
 * **Enhanced Interactive CLI UX:** Built using `questionary` to replace tedious flags with beautiful, interactive arrow-key select menus and live text prompts.
 * **Modular Architecture:** Explicit separation of concerns between logging configurations, API clients, parameters validation, and execution code.
