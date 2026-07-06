@@ -103,3 +103,30 @@ The bot tracks and commits every event directly to trading_bot.log. Here is an o
 
 ```
 
+## 💡 Skills Demonstrated
+
+Developing this application showcases several essential production-level software engineering capabilities:
+
+* **Defensive Programming & Input Sanitization:** Implementing client-side pre-validation engines to ensure malicious or malformed data inputs are caught before consuming live network bandwidth or hitting external rate limits.
+* **Structured Enterprise Logging:** Configuring dual-destination logging setups that preserve clean operational visibility for the user via terminal alerts while saving system debugging metadata (file names, modules, exact line numbers) to an audit log.
+* **Graceful Exception Mapping:** Extracting deep, cryptic API errors from a live third-party network and translating them into helpful, human-readable terminal messages without leaking internal tracebacks.
+* **Secure Environment Management:** Adhering strictly to information security practices by decoupling critical access keys and secrets using system environment abstraction (`.env` with strict `.gitignore` tracking).
+* **Modular Software Design:** Organizing code into distinct files where logic is completely isolated (separation of concerns among execution triggers, input validation rules, and network calls).
+
+---
+
+## 🙋‍♂️ About the Developer
+
+Built with ❤️ by **[SHAKSHI SONI]**
+
+I'm a developer passionate about building practical AI applications that solve real-world problems. This project explores agentic AI design — where an LLM doesn't just chat, but *acts*, by calling tools, remembering context, and making decisions autonomously.
+---
+
+📫 **Connect with me:**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/yourprofile)
+
+
+<div align="center">
+
+**⭐ If you found this project interesting, please give it a star! It helps a lot.**
+
