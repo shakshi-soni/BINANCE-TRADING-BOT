@@ -95,8 +95,9 @@ The bot tracks and commits every event directly to trading_bot.log. Here is an o
 2026-07-06 11:45:51,615 - INFO - [orders.py:9] - Sending API request to Binance Testnet with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'LIMIT', 'quantity': 1.25, 'price': 5.69}
 2026-07-06 11:45:52,522 - ERROR - [orders.py:28] - Binance API Error encountered: Code=-4013, Message=Price less than min price.
 
-2026-07-06 11:49:23,691 - INFO - [orders.py:9] - Sending API request to Binance Testnet with params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'order_type': 'LIMIT', 'quantity': 2.36, 'price': 60000.0}
-2026-07-06 11:49:24,517 - ERROR - [orders.py:28] - Binance API Error encountered: Code=-2019, Message=Margin is insufficient.
+2026-07-06 12:12:20,871 - INFO - [orders.py:24] - API order placement successful. Raw Response: {'orderId': 12110105730, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'VFIAINAnZwGAOvxP9hZ6lT', 'price': '0.00', 'origQty': '2.100', 'executedQty': '0.000', 'cumQty': '0.000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1783320141021}
+2026-07-06 12:12:41,454 - INFO - [orders.py:9] - Sending API request to Binance Testnet with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 2.31, 'price': None}
+
 
 2026-07-06 11:55:56,703 - INFO - [orders.py:9] - Sending API request to Binance Testnet with params: {'symbol': 'ETHUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.24, 'price': None}
 2026-07-06 11:55:57,332 - INFO - [orders.py:24] - API order placement successful. Raw Response: {'orderId': 12108518845, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'Y1sXkoZs...', 'price': '0.00', 'origQty': '1.240', 'executedQty': '0.000', 'cumQty': '0.000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'side': 'BUY', 'updateTime': 1783319157487}
